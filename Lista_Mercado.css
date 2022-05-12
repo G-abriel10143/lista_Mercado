@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    width: 170px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #008cce;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #008cce;
+    border: none;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
