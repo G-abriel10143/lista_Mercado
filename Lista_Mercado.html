@@ -7,13 +7,30 @@
     <link rel="stylesheet" href="css/lista_mercado.css">
 </head>
 <body>
-     <h1>Lista De Compras</h1>
-     <h5>Clique no produto já comprado para excluí-lo da lista</h5>
-    <ul id="listinha">
+    <div class="titulos">
+        <h1>Lista De Compras</h1>
+        <h5>Clique no produto já comprado para excluí-lo da lista</h5>
+    </div>
+    <h2>Digite Seu Produto</h2>
+    <input type="text" id="inputTexto">
 
-    </ul>
-   <input type="text" id="inputTexto"><br>
-   <button onclick="adicionarItem()">Adicionar</button>
-   <script src="JS/lista_mercado.js"></script>
+    <h2>Digite o Valor (R$)</h2>
+    <input type="number" id="inputDinheiro" step="0.01">
+
+    <div class="lista">
+        <ul id="listinha">
+
+        </ul>
+    </div>
+
+<br>
+<br>
+
+   <button onclick="adicionarItem()">Adicionar</button><br>
+    
+   <div class="Total">
+       <h2>Total : R$<span id="totalComprado">0</span></h2>
+   </div>
+<script src="JS/lista_mercado.js"></script>
 </body>
 </html>
