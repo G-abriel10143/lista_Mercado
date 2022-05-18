@@ -1,19 +1,34 @@
 body {
     text-align: center;
+    background-color: rgb(211, 137, 76);
 }
 
-h1{
+.titulos{
     text-align: center;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+.lista{
+        padding-left: 0;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 10px;
+        font-size: 20px;
+        list-style-type: none;
+}
+
+h2{
+    margin-right: -20px;
+}
 
 input{
-    width: 170px;
+    width: 148px;
     height: 28px;
     border-radius: 5px;
     border: 1px solid #008cce;
+    margin-right: 337px;
+    margin-left: 363px;
 }
 
 button {
@@ -25,15 +40,5 @@ button {
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
-}
-
-ul {
-    padding-left: 0;
-}
-
-li {
-    display: block;
-    cursor: pointer;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-left: 30px;
 }
